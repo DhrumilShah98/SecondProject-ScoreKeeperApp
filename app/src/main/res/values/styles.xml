@@ -1,0 +1,128 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+    </style>
+
+    <style name="background_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/tennis_background</item>
+        <item name="android:alpha">0.9</item>
+
+    </style>
+    <style name="main_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/top_margin_main_ll</item>
+        <item name="android:layout_marginLeft">@dimen/left_margin_main_ll</item>
+        <item name="android:layout_marginRight">@dimen/right_margin_main_ll</item>
+    </style>
+
+    <style name="sub_linear_layout_text_view_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/text_view_one_margin_bottom</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="sub_linear_layout_text_view_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/text_view_two_margin_bottom</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="total_foul">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="points_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/points_text_view_bottom_margin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="plus_one_point_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/plus_one_bottom_margin</item>
+        <item name="android:textColor">@color/text_in_button_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="foul_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/foul_text_view_bottom_margin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fail_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/text_in_button_color</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fail_point_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="reset_score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/reset_margin_top</item>
+        <item name="android:textColor">@color/text_in_button_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="set_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="winners_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/winners_message_color</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_marginTop">@dimen/winners_margin_top</item>
+    </style>
+</resources>

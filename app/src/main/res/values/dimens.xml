@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--main_linear_layout styling(main_linear_layout)-->
+    <dimen name="top_margin_main_ll">3dp</dimen>
+    <dimen name="left_margin_main_ll">24dp</dimen>
+    <dimen name="right_margin_main_ll">24dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!--left_linear_layout(first_left_linear_layout)-->
+    <dimen name="right_margin_first_ll">12dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!--right_linear_layout(first_right_linear_layout)-->
+    <dimen name="left_margin_first_ll">12dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!--sub_linear_layout_text_view_1-->
+    <dimen name="text_view_one_margin_bottom">6dp</dimen>
+
+    <!--sub_linear_layout_text_view_2-->
+    <dimen name="text_view_two_margin_bottom">6dp</dimen>
+
+    <!--second_linear_layout-->
+    <dimen name="bottom_margin_second_ll">6dp</dimen>
+
+    <!--points_style-->
+    <dimen name="points_text_view_bottom_margin">0dp</dimen>
+
+    <!--plus_one_point_style-->
+    <dimen name="plus_one_bottom_margin">6dp</dimen>
+
+    <!--foul_style-->
+    <dimen name="foul_text_view_bottom_margin">0dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <dimen name="reset_margin_top">40dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <dimen name="set_margin_bottom">18dp</dimen>
+
+    <!-- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <dimen name="winners_margin_top">6dp</dimen>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>  <!-- Material Design(700) Green-->
+    <color name="colorPrimaryDark">#1B5E20</color>  <!-- Material Design(900) Green-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButtonNormal">#388E3C</color><!-- Material Design(700) Green-->
+
+    <color name="text_view_color">#000000</color>
+    <color name="text_in_button_color">#ffffff</color>
+    <color name="winners_message_color">#ffffff</color>
+</resources>

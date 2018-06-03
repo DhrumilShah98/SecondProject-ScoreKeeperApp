@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tennis</string>
+
+
+    <string name="tennis_background">Image contains a tennis ball</string>
+
+
+    <string name="total_fouls">Total Fouls:</string>
+    <string name="points">Points</string>
+    <string name="plus_one">Point</string>
+    <string name="fouls">Fouls</string>
+    <string name="serve_fail">serve fail</string>
+    <string name="net_touch">net touch</string>
+    <string name="other_fault">other fault</string>
+    <string name="reset">Reset</string>
+    <string name="set">Set</string>
+
+
+
+    <!--Team A-->
+    <string name="team_a">Team A</string>
+    <string name="score_team_a">0</string>
+    <string name="score_set_a_1">0</string>
+    <string name="score_set_a_2">0</string>
+    <string name="score_set_a_3">0</string>
+    <string name="total_fouls_a_score">0</string>
+    <string name="serve_fail_a_score">0</string>
+    <string name="net_touch_a_score">0</string>
+    <string name="other_fault_a_score">0</string>
+
+
+    <!--Team B-->
+    <string name="team_b">Team B</string>
+    <string name="score_team_b">0</string>
+    <string name="score_set_b_1">0</string>
+    <string name="score_set_b_2">0</string>
+    <string name="score_set_b_3">0</string>
+    <string name="total_fouls_b_score">0</string>
+    <string name="serve_fail_b_score">0</string>
+    <string name="net_touch_b_score">0</string>
+    <string name="other_fault_b_score">0</string>
+
+    <!--Winners message display-->
+    <string name="teamAWin">WINNER:  Team A</string>
+    <string name="teamBWin">WINNER:  Team B</string>
+</resources>
